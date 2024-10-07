@@ -26,19 +26,17 @@ img {
 }
 
 .button {
-    
-  
     border: 2px;
     width: auto;
     min-width: 80px;
     min-height: 40px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;  
+    display: inline-block;
     border-radius: 40px;
 }
 
-.white {
+.-white {
     background-color: rgb(255, 255, 255);
     color: black;
 }
@@ -48,11 +46,18 @@ img {
     margin: 20px 20px;
 }
 
-.black {
+.-black {
     background-color: #000000;
     color: white;
     border-radius: 80px;
     vertical-align: center;
+}
+
+.-blue{
+    padding: 0x 10px;
+    margin-left: 20px 20px;
+    background-color: #7289DA;
+    color: white;
 }
 
 li {
@@ -61,7 +66,7 @@ li {
 }
 
 a {
-    
+
     list-style-type: none;
     color: inherit;
     text-decoration: none;
@@ -115,17 +120,6 @@ p{
     background-color: rgb(179, 177, 177); */
 }
 
-#h1-grey{
-    padding-top: 40px;
-   padding-bottom: 40px;
-   font-size: xx-large;
-}
-
-#p-grey{
-    padding-top: 40px;
-    font-size: large;
-    line-height: 20px;
-}
 .section-big {
     width: 100%;
     padding-top: 30px;
@@ -134,6 +128,11 @@ p{
     /* min-height: 50vh; */
     /* border: 1px solid #000000;
     background-color: rgb(179, 177, 177); */
+}
+
+h3{
+    padding-left: 50px;
+    font-size: xx-large;
 }
 
 .fouter_up {
@@ -183,7 +182,7 @@ p{
     margin: 0 auto;
     /*debug*/
     /* border: 1px solid red; */
-    
+
     /* background-color: #f085e9; */
 }
 
@@ -276,9 +275,4 @@ p{
 
 .green {
     background-color: greenyellow;
-}
-
-.box-green {
-    height: 50vh;
-    background-color: green;
 }

@@ -90,7 +90,7 @@ a {
     padding-bottom: 50px;
     /*debug*/
     min-height: 37vh;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
 }
 
 #h1-white{
@@ -115,7 +115,17 @@ a {
     background-color: rgb(179, 177, 177); */
 }
 
+#h1-grey{
+    padding-top: 40px;
+   padding-bottom: 40px;
+   font-size: xx-large;
+}
 
+#p-grey{
+    padding-top: 40px;
+    font-size: large;
+    line-height: 20px;
+}
 .section-big {
     width: 100%;
     padding-top: 30px;
@@ -260,8 +270,8 @@ a {
     background-color: #ffc0cb;
 }
 
-.orange {
-    background-color: orange;
+.grey {
+    background-color:#F6F6F6;
 }
 
 .green {

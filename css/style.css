@@ -1,3 +1,10 @@
+/* :root{
+   --btn-white--;
+
+
+} */
+
+
 /* reset */
 * {
     margin: 0;
@@ -25,15 +32,23 @@ img {
     /* border: 2px solid #ff0000; */
 }
 
-.button {
-    border: 2px;
-    width: auto;
-    min-width: 80px;
-    min-height: 40px;
+.btn {
+    padding: 0.4em 0.8em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 40px;
+    border-radius: 5em;
+}
+
+.wave{
+    width: 100%;
+    display: block;
+}
+
+.wave-reverse{
+    transform: rotate(0.5turn);
+    width: 100%;
+    display: block;
 }
 
 .-white {
@@ -62,7 +77,7 @@ img {
 
 li {
     display: inline;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 a {
@@ -75,15 +90,12 @@ a {
 }
 
 .section-hero {
-    padding-top: 50px;
-    background: url(/img/jumbo.png);
+    background-image: url(/img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
     font-size: larger;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    min-height: 62vh;
+    padding-bottom: 50px;
     /*debug*/
     /* border: 1px solid #000000;
     background-color: #060892; */
@@ -91,8 +103,6 @@ a {
 
 .section-white {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 50px;
     /*debug*/
     min-height: 37vh;
     /* border: 1px solid #000000; */
@@ -107,7 +117,7 @@ h1{
 p{
     padding-top: 40px;
     font-size: large;
-    line-height: 20px;
+    line-height: 1.5;
 }
 
 .section-grey {
@@ -151,7 +161,7 @@ h3{
     /*debug*/
     min-height: 80px;
     border: 2px solid #ffffff;
-    /* background-color: #000000; */
+    background-color: #000000;
 }
 
 .footer {
@@ -173,7 +183,6 @@ h3{
 }
 
 .container-small {
-    padding-top: 200px;
     background-color: rgb(37, 94, 233,0,4);
     text-align: center;
     color: white;
@@ -182,7 +191,6 @@ h3{
     margin: 0 auto;
     /*debug*/
     /* border: 1px solid red; */
-
     /* background-color: #f085e9; */
 }
 
